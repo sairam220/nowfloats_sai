@@ -1,0 +1,140 @@
+.header-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+
+  align-items: center;
+}
+
+.link-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.search-input {
+  border-width: 2px;
+  height: 10%;
+  border-color: black;
+  padding: 4px;
+  margin-top: 5%;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
+.search-image {
+  height: 4%;
+  width: 28px;
+
+  margin-top: 4.7%;
+  background-color: #94a3b8;
+}
+li {
+  list-style-type: none;
+}
+
+.nav-heading {
+  font-family: 'caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.logo-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 24px 0 24px;
+}
+
+.image2 {
+  background-color: black;
+
+  padding: 10px;
+  height: 30px;
+  width: 100%;
+}
+
+.image-logo {
+  width: 35px;
+  height: 35px;
+  /* margin-top: 10px; */
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.home-menu-container {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.list-items-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 20px 0;
+  gap: 16px;
+  margin-left: 3%;
+}
+
+.list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #262626;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.list-item:hover {
+  color: #4094ef;
+}
+
+.logout-button {
+  padding: 8px 24px;
+  gap: 8px;
+
+  width: 86px;
+  height: 32px;
+
+  background-color: #4094ef;
+  border-radius: 4px;
+  border: none;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-close-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
